@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: "Mulish", sans-serif;
@@ -175,25 +176,43 @@ form {
 }
 .images1{
     grid-column:1/span 6 ;
+    position: relative;
 }
+
 .images2{
     grid-column: 7/span 6;
+    position: relative;
 }
 .images3{
     grid-column: 1/span 3;
+    position: relative;
 
 }
 .images4{
     grid-column:4/span 6;
+    position:relative;
 }
 .images5{
     grid-column:10/span 3;
+    position:relative;
 }
 .images6{
     grid-column:1/span 5;
+    position:relative;
 }
 .images7{
     grid-column:6/span 7;
+    position:relative;
+}
+
+.destination-name{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 800;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
 
 
