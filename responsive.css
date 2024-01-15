@@ -1,0 +1,42 @@
+@media screen and (max-width:600px) {
+
+    .nav li {
+        display: none;
+      }
+
+    .nav ul i{
+        display: block;
+        margin-right: 25px;
+    }
+    .nav .nav-title img {
+        width: 22%;
+        
+    }
+    .nav-title .nav-name{
+        font-size: 25px;
+    }
+
+    .banner{
+        text-align: center;
+        height: auto;
+        background-position: center;
+        width: 90%;
+        border-radius: 30px;
+        
+    }
+    .banner-title{
+        font-size:30px ;
+        margin-top: 30px;
+    }
+    form{
+        flex-direction: column;
+        margin-bottom: 50px;
+
+    }
+  .select{
+    padding-right: 110px;
+  }
+
+
+   
+}

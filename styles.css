@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.btn {
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px 40px;
+  border: none;
+}
+
+/* header-nav  sction styles   */
+
+.nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.nav .nav-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav .nav-name {
+  color: #131318;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.nav span {
+  color: #ff5400;
+  font-weight: 800;
+}
+
+.nav ul {
+  display: flex;
+  gap: 50px;
+}
+
+.nav li {
+  list-style: none;
+}
+.nav li a {
+  text-decoration: none;
+  color: #424247;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.nav ul i {
+  font-size: 30px;
+  display: none;
+}
+
+/*     banner section styles    */
+
+.banner {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: url(/Images/group13.png);
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.banner-title {
+  text-align: center;
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+}
+.banner-discription {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 50px auto;
+}
+
+form {
+  display: inline-flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.input {
+  border-radius: 5px;
+  background: #fff;
+  padding: 15px 30px;
+  border: none;
+}
+
+/* popular sectin styles  */
+
+.popular {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+  margin-top: 100px;
+}
+
+.popular-title {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.popular-discription {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 25px auto;
+}
+.popular-content li {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 35px auto;
+    margin-left: 20px;
+  }
+
