@@ -71,7 +71,7 @@ body {
 .banner {
   max-width: 1200px;
   margin: 0 auto;
-  background-image: url(/Images/group13.png);
+  background-image: url(group13.png);
   background-repeat: no-repeat;
   height: 500px;
   display: flex;
