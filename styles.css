@@ -321,7 +321,6 @@ form {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 100px;
-
 }
 
 .deals-img {
@@ -335,11 +334,9 @@ form {
   flex-direction: row-reverse;
 }
 
-.img2{
+.img2 {
   display: flex;
 }
-
-
 
 .deals-img-content {
   border-radius: 16px;
@@ -348,7 +345,7 @@ form {
   backdrop-filter: blur(2.5px);
   width: 48%;
   padding: 50px;
-  margin:55px;
+  margin: 55px;
 }
 .deals-img-nav {
   display: flex;
@@ -374,7 +371,140 @@ form {
   font-weight: 400;
   margin: 25px auto;
 }
-.deals-price{
-  color:#FF5400;
+.deals-price {
+  color: #ff5400;
   margin-bottom: 25px;
+}
+
+.see-btn {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/*  bangladesh video section  */
+.bangladesh {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  margin-top: 100px;
+}
+.bangladesh-content {
+  width: calc((100% - 30px) / 2);
+}
+
+.bangladesh-title {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.bangladesh-discription {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 25px auto;
+}
+.bangladesh-content li {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 20px auto;
+  margin-left: 20px;
+}
+.bangladesh-video {
+  width: calc((100% - 30px) / 2);
+}
+.bangladesh-video video {
+  width: 100%;
+  height: 100%;
+}
+
+/* signup sectio styles  */
+
+.signup {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  gap: 25px;
+}
+
+.signup-content {
+  width: 40%;
+  border-radius: 16px;
+  padding: 40px;
+  border: 1px solid #ff5400;
+}
+
+.signup-title {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.signup-discription {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 20px auto;
+  padding-right: 30px;
+}
+.signup hr {
+  background: rgba(19, 19, 24, 0.1);
+}
+
+.signup-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form input {
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  padding: 16px;
+  padding-right: 205px;
+  border: none;
+}
+.signup-btn {
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px 155px;
+  border: none;
+  text-align: center;
+}
+.signup-img{
+  position: relative;
+}
+.signup-img img{
+  width: 100%;
+  height: 100%;
+}
+
+.signup-discount {
+  width: 35%;
+  height: 18%;
+  transform: rotate(-19.628deg);
+  border-radius: 16px;
+  background: #FF5400;
+  position:absolute;
+  right: 10px;
+  bottom: 50px;
+}
+.discount-name{
+  color: #FFF;
+text-align: center;
+font-size: 18px;
+margin-top: 10px;
+}
+
+.discount-title{
+  color: #FFF;
+font-size: 25px;
+font-weight: 800;
+text-align: center;
 }
