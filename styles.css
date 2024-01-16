@@ -231,7 +231,7 @@ form {
 }
 .extra-content {
   padding-left: 40px;
-  padding-top: 20%;
+  padding-top: 15%;
 }
 .extra-title {
   color: #fff;
@@ -244,4 +244,72 @@ form {
   font-size: 16px;
   font-weight: 600;
   margin: 20px auto;
+}
+
+/*  why choose us section styels */
+
+.chose {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.chose-title {
+  color: #131318;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 800;
+}
+.chose-discription {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 270px;
+  padding-right: 270px;
+  margin: 10px auto;
+}
+
+.chose-card {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.card1 {
+  width: calc((100% - 25px) / 2);
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 30px;
+}
+.card2 {
+  width: calc((100% - 25px) / 2);
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  padding: 30px;
+}
+.card3 {
+  width: calc((100% - 25px) / 2);
+  margin: 0 auto;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  padding: 30px;
+}
+.chose-card i {
+  color: #f1670b;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+.card-title {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.card-discription {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
 }
