@@ -82,4 +82,24 @@
     display: block;
     margin: 0 auto;
   }
+  .extra{
+    width: 90%;
+  }
+  .extra-content {
+    padding-left: 40px;
+    padding-top: 15%;
+  }
+  .extra-title {
+    font-size: 25px;
+  }
+  .extra-discription {
+    font-size: 12px;
+    margin: 10px auto;
+  }
+  .extra-btn{
+    font-size: 10px;
+    font-weight: 600;
+    padding: 10px ;
+  }
+
 }
